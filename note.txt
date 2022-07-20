@@ -1,0 +1,13 @@
+frontend/desain web:
+hilman
+
+backend/desain system dan database: 
+danu
+
+stack:
+MERN
+
+bikin web:
+perpustakaan
+
+Frontend dlu
