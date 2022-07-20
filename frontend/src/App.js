@@ -5,8 +5,10 @@ function App() {
   <>
     <div className="topnav">
       <a className="active" href="#home">home</a>
-      <a href="#news">news</a>
-      <a href="#contact">contact</a>
+      <a href="#create">create</a>
+      <a href="#update">update</a>
+      <a href="#delete">delete</a>
+      <a href="get">get book</a>
       <a href="#about">about</a>
     </div>
     <img src={logo} className="app-logo" alt="iconbuku"/>
