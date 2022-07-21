@@ -3,22 +3,32 @@ import logo from './iconbuku.png'
 function App() {
   return (
   <>
-    <div className="topnav">
-      <a className="active" href="#home">home</a>
-      <a href="#create">create</a>
-      <a href="#update">update</a>
-      <a href="#delete">delete</a>
-      <a href="get">get book</a>
-      <a href="#about">about</a>
-    </div>
-    <img src={logo} className="app-logo" alt="iconbuku"/>
+   <div className="banner">
+      <div className="navbar">
+        <img src={logo} class="logo"/>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">bedroom</a></li>
+            <li><a href="#">dining</a></li>
+            <li><a href="#">kitchen</a></li>
+            <li><a href="#">backyard</a></li>
 
+          </ul>
+      </div>
+          <div className="content"> 
+          <h1>Perpuskaan</h1>
+          <p>Mari kita membaca bersama di Perpuskaan</p>
+          <div>            
+            <button type="button"><span></span>Baca Buku</button>
+           <button type="button"><span></span>Cari Buku</button>
+           <button type="button"><span></span>update</button>
+           <button type="button"><span></span>hapus Buku</button>
+           <button type="button"><span></span>tambah Buku</button>
 
-    <div className='book-buku'>
-      <p>judul buku</p>
-      <p>penerbit</p>
-      <p>penulis</p>
-    </div>
+            
+          </div>
+          </div>
+   </div>
   </>
   );
 }
