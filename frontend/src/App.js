@@ -5,13 +5,13 @@ function App() {
   <>
    <div className="banner">
       <div className="navbar">
-        <img src={logo} class="logo"/>
+        <img src={logo} class="logo" alt="logo"/>
           <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">bedroom</a></li>
-            <li><a href="#">dining</a></li>
-            <li><a href="#">kitchen</a></li>
-            <li><a href="#">backyard</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#buku">Buku</a></li>
+            <li><a href="#rak">Rak Buku</a></li>
+            <li><a href="#top-buku">Top Buku</a></li>
+            <li><a href="#about">About</a></li>
 
           </ul>
       </div>
@@ -24,10 +24,13 @@ function App() {
            <button type="button"><span></span>update</button>
            <button type="button"><span></span>hapus Buku</button>
            <button type="button"><span></span>tambah Buku</button>
-
+          </div>
+        </div>
+        <div>
+          <div className="about" id="about">
             
           </div>
-          </div>
+        </div>
    </div>
   </>
   );
