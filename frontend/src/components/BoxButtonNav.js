@@ -1,5 +1,5 @@
 import React from "react";
-import "./box.css";
+// import "./box.css";
 
 export default function () {
   return (
