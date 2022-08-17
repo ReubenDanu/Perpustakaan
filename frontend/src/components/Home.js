@@ -5,7 +5,7 @@ import HomeImg2 from "../images/test.png";
 export default function Home() {
     return (
         <>
-            <section className="section">
+            <section className="section" id="home">
                 <div className="row row__1">
                     <div className="box__1">
                         <h1 className="section_tile">

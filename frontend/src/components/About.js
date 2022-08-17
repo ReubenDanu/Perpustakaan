@@ -6,7 +6,7 @@ import './about.css'
 export default function About(){
 	return(
 		<>
-			<section className="section about">
+			<section className="section about" id="about">
 				<h1 className="about__title">Lebih banyak Tentang Membaca</h1>
 				<div className="row">
 					<div className="card__box box__1">

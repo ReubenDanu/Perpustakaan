@@ -16,7 +16,7 @@ export default function Navbar(){
 
                 <div className='navbar__inner navbar__2'>
                     <ul className='navbar__link'>
-                        <li><a href="/"><UilEstate className="navlink__icon" /> Home</a></li>
+                        <li><a href="#home"><UilEstate className="navlink__icon" /> Home</a></li>
                         <li><a href="#buku"><UilBookAlt className="navlink__icon" /> Buku</a></li>
                         <li><a href="#about"><UilQuestionCircle className="navlink__icon" /> About</a></li>
                         <li><a href="#login"><UilUsersAlt className="navlink__icon" /> Login</a></li>

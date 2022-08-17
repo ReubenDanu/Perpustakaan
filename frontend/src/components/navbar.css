@@ -43,6 +43,7 @@
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
+    align-items: center;
     width: 22rem;
 }
 
@@ -66,7 +67,7 @@
     left: 0;
     width: 100%;
     height: 0.1em;
-    background-color: var(--first-color);
+    background-color: black;
     opacity: 0;
     transition: opacity 300ms, transform 300ms;
 }

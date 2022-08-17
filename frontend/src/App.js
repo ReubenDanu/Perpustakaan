@@ -2,7 +2,7 @@ import './app.css';
 import Navbar from './components/Navbar.js';
 import Home from './components/Home.js';
 import About from './components/About.js';
-// import Footer from './components/Footer.js';
+import Footer from './components/Footer.js';
 function App() {
   return (
     <div>
@@ -11,7 +11,7 @@ function App() {
     {/* {/* Main content */}
     <Home />
     <About />
-    {/* <Footer /> */} 
+    <Footer />
     </div>
   );
 }
