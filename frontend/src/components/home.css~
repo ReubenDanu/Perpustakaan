@@ -1,0 +1,26 @@
+.section {
+    padding: 0 1rem;
+}
+
+.row{
+    width: 100%;
+    padding: 0px 10px;
+    background-color: white;
+    margin: 15px 0;
+}
+
+.box__1 {
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px;
+    padding-top: 6rem;
+    width: 50%;
+    font-size: var(--h2-font-size);
+    margin-right: 20px;
+}
+
+.box__2{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}

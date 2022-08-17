@@ -1,0 +1,33 @@
+import React from 'react'
+import './home.css'
+import HomeImg from '../images/index2.png'
+export default function Home(){
+    return(
+        <>
+            <section className='section'>
+                <div className='row'>
+                    <div className='box__1'>
+                        <p>
+                            Ayo membaca buku di Perpustakaan online.
+                            Jaman sekarang masih baca buku tatap muka?
+                            mulai dari sekarang baca buku lewat online aja
+	    		</p>
+            	    </div>
+	    		<div className='box__2'>
+	    			<img src={HomeImg} alt='Book.png'/>
+	    		</div>
+	    	</div>
+                <div className='row'>
+                    <div className='box__3'>
+	    		<h1>Perpustakaan.ku</h1>
+                        <p>
+	    			Perpustakaan.ku adalah cara kita bisa mengakses berbagai ilmu dengan mudah
+	    			dengan banyaknya buku yang bisa kita baca dengan mudah!
+                        </p>
+	    		<a href="#login">Baca Sekarang</a>
+                    </div>
+                </div>    
+            </section>       
+        </>
+    )
+}

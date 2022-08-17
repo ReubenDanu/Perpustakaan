@@ -1,0 +1,28 @@
+.about__title {
+	text-align: center;
+	position: relative;
+	bottom: 50px;
+}
+
+.row{
+	align-items: center;
+	justify-content: space-between;
+}
+.card__box {
+	text-align: left;
+	max-width: 500px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);;
+	padding: 1.2em 2em;
+	height: 250px;
+	margin: auto;
+
+}
+
+.card__box p {
+	text-align: left;
+}
+
+.icon__about {
+	width: 3rem;
+	height: auto;
+}

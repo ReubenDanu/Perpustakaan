@@ -1,29 +1,18 @@
-import './app.css'
+import './app.css';
 import Navbar from './components/Navbar.js';
-
+import Home from './components/Home.js';
+import About from './components/About.js';
+// import Footer from './components/Footer.js';
 function App() {
   return (
-  <>
-   <div className="banner">
-        <Navbar />
-          <div className="content"> 
-          <h1>Perpuskaan</h1>
-          <p>Mari kita membaca bersama di Perpuskaan</p>
-          <div>            
-            <button type="button"><span></span>Baca Buku</button>
-           <button type="button"><span></span>Cari Buku</button>
-           <button type="button"><span></span>update</button>
-           <button type="button"><span></span>hapus Buku</button>
-           <button type="button"><span></span>tambah Buku</button>
-          </div>
-        </div>
-        <div>
-          <div className="about" id="about">
-            
-          </div>
-        </div>
-   </div>
-  </>
+    <div>
+    {/* Navbar or Header */}
+      <Navbar />
+    {/* {/* Main content */}
+    <Home />
+    <About />
+    {/* <Footer /> */} 
+    </div>
   );
 }
 
